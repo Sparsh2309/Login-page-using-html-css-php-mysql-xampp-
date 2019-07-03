@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>reset form</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/base-style.css">
+  <link rel="stylesheet" href="css/selectors.css">
+</head>
+<body>
+<div id="login-box">
+   <div class="left-box">
+   
+      
+        <h1>forget password</h1>
+		<form method="post" action="reset.php">
+
+          <label for="username">username:-</label> 
+          <input type="text" name="username" placeholder="Enter your username">
+
+        <label for="email">email:-</label>
+        <input type="text" name="email" placeholder="Enter your email">
+
+        <label for="message">Message:-</label>
+        <textarea name="message" rows="3" placeholder="Enter your message"></textarea>
+
+          <input class="btn inln default" type="submit" value="Submit">
+          <input class="btn inln error" type="reset" value="Reset"> 
+       </form>
+</div>
+        <hr> <div class="right-box">
+        
+        <form method="post" action="validate.php">
+            <label for="username">Username:</label> 
+            <input type="text" name="username" placeholder="Enter your username">
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" placeholder="Enter your password">
+
+            <input type="Submit" name="" value="login">
+      <a href="login page.html">HOME</a> 
+        </form>
+    </div>
+	<div class="or">OR</div>
+	</div>
+</body>
+</html>
